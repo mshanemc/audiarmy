@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Drag_Strip</fullName>
+    <active>true</active>
+    <description>Choose this Record Type when creating a Drag Strip Hooning Record for #TheAudiArmy</description>
+    <label>Drag Strip</label>
+    <picklistValues>
+        <picklist>Direction__c</picklist>
+        <values>
+            <fullName>Clockwise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Counter Clockwise</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

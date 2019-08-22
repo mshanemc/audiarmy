@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Part_Type__c</fullName>
+    <description>This field is for designating #TheAudiArmy Vehicle Car Part Type.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Please select the Part Type which this #TheAudiArmy Car Part is.</inlineHelpText>
+    <label>Part Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Brakes</fullName>
+                <default>false</default>
+                <label>Brakes</label>
+            </value>
+            <value>
+                <fullName>Tires</fullName>
+                <default>false</default>
+                <label>Tires</label>
+            </value>
+            <value>
+                <fullName>Tuning</fullName>
+                <default>false</default>
+                <label>Tuning</label>
+            </value>
+            <value>
+                <fullName>Mechanic</fullName>
+                <default>false</default>
+                <label>Mechanic</label>
+            </value>
+            <value>
+                <fullName>Engine</fullName>
+                <default>false</default>
+                <label>Engine</label>
+            </value>
+            <value>
+                <fullName>Exhaust</fullName>
+                <default>false</default>
+                <label>Exhaust</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

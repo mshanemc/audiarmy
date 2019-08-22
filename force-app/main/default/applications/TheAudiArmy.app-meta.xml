@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#A4D2FA</headerColor>
+        <logo>Salesforce_TheAudiArmy_Flag_Logo</logo>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>true</shouldOverrideOrgTheme>
+    </brand>
+    <description>This is the App for #TheAudiArmy</description>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <label>#TheAudiArmy</label>
+    <navType>Standard</navType>
+    <tabs>standard-Lead</tabs>
+    <tabs>standard-Account</tabs>
+    <tabs>standard-Contact</tabs>
+    <tabs>Vehicle__c</tabs>
+    <tabs>standard-Opportunity</tabs>
+    <tabs>Hooning__c</tabs>
+    <tabs>Vehicles__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>TheAudiArmy_UtilityBar</utilityBar>
+</CustomApplication>

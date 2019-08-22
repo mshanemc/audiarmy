@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Currently_Sponsoring__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This field is for designating if they are already Sponsoring the #TheAudiArmy.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Please Check if they are currently a Sponsor of #TheuAudiArmy.</inlineHelpText>
+    <label>Currently Sponsoring</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Model__c</fullName>
+    <description>This field is for designating #TheAudiArmy Vehicle Car Model.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Please enter #TheAudiArmy Model for this Vehicle Car Record.</inlineHelpText>
+    <label>Model</label>
+    <length>69</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

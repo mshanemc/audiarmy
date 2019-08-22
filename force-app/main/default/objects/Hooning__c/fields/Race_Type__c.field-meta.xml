@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Race_Type__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>This field relates #TheAudiArmy Hooning Drag Strip and Road Course Records to the Hooning Race Records.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Please enter #TheAudiArmy Race Type the Hooning will be happening at.</inlineHelpText>
+    <label>Race Type</label>
+    <referenceTo>Hooning__c</referenceTo>
+    <relationshipLabel>Hoonings</relationshipLabel>
+    <relationshipName>Hoonings</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

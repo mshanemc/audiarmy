@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sponsored_Part__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This field is for designating if the part is a sponsored #TheAudiArmy Vehicle Car Part.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Please Check if this part was even a partial sponsorship.</inlineHelpText>
+    <label>Sponsored Part</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

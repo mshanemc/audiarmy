@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Point_Man__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This field is for designating who the Point Man and first contact should be for #TheAudiArmy.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Please Check if this is the Point Man and first contact for #TheAudiArmy.</inlineHelpText>
+    <label>Point Man</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

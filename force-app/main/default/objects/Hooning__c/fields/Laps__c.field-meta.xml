@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Laps__c</fullName>
+    <description>This field is for designating how many Laps #TheAudiArmy traverse.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Please enter how many Laps #TheAudiArmy traverse.</inlineHelpText>
+    <label>Laps</label>
+    <precision>4</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>
