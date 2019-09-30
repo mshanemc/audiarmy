@@ -1,6 +1,6 @@
 #TheAudiArmy App is for tracking A Race Teams Cars, Drivers, and Sponsors
 
-## 1. Determine your Data Model:
+## Determine your Data Model:
 
 - You can Go to Set Up - Schema Builder to view your current out of the box Data Model
 - It is important to put some thought into this, maybe even before you begin creating your app, in order to stick with Salesforce Best Practices
@@ -10,9 +10,7 @@
   - Create Custom Objects to house various data points where the above really doesn't make sense
   - Create Record Types for on Standard or Custom Objects as needed
 
-## 2. Next Step, Custom Objects and Record Types
-
-Extend your Data Model:
+## Extend your Data Model (Custom Objects and Record Types):
 
 - As per the above options, I am choosing to do the following:
   - Create Record Types for Leads
@@ -48,56 +46,54 @@ Extend your Data Model:
 
 ## 3. Integrating Data Model through LookUp Fields connecting our Objects as Ohana
 
-- Integrate the Data Model:
-  - Map Leads to Accounts / Contacts(no Opportunity)
-  - Relational Fields for the Vehicle and Hooning Custom Objects
-    1. Vehicle Car Records need a LookUp field to look up to Contact Driver Records, placed on TheAudiArmy Car Layout and the Related List goes on TheAudiArmy Driver Layout
-    2. Vehicles Car Part Records need a LookUp field to look up to Vehicle Car Records, placed on TheAudiArmy Car Part Layout and the Related List goes on TheAudiArmy Car Layout
-    3. Hooning Show and Race Records need a LookUp field to look up to Contact Driver Records, placed on TheAudiArmy Show Layout and the Related List goes on TheAudiArmy Driver Layout
-    4. ReUse Field above for the Hooning Show Records
-    5. Hooning Drag Strip and Road Course Records need a LookUp field to look up to Hooning Race Records, placed on TheAudiArmy Drag Strip and Road Course Layout and the Related List goes on TheAudiArmy Race Layout
-    6. ReUse Field above for the Hooning Road Course Records
+- Map Leads to Accounts / Contacts(no Opportunity)
+- Relational Fields for the Vehicle and Hooning Custom Objects
+  1. Vehicle Car Records need a LookUp field to look up to Contact Driver Records, placed on TheAudiArmy Car Layout and the Related List goes on TheAudiArmy Driver Layout
+  2. Vehicles Car Part Records need a LookUp field to look up to Vehicle Car Records, placed on TheAudiArmy Car Part Layout and the Related List goes on TheAudiArmy Car Layout
+  3. Hooning Show and Race Records need a LookUp field to look up to Contact Driver Records, placed on TheAudiArmy Show Layout and the Related List goes on TheAudiArmy Driver Layout
+  4. ReUse Field above for the Hooning Show Records
+  5. Hooning Drag Strip and Road Course Records need a LookUp field to look up to Hooning Race Records, placed on TheAudiArmy Drag Strip and Road Course Layout and the Related List goes on TheAudiArmy Race Layout
+  6. ReUse Field above for the Hooning Road Course Records
 
-## 4. Now that we properly have our Data Model Creating Custom Fields
+## Configure Objects in Data Model:
 
-- Configure Objects in Data Model:
-  - Remove unneeded fields from Lead, Account, Contact, and Sponsor Page Layouts
-  - Add fields to collect Data Points needed for reporting
-    1. Vehicle
-       - Car Layout
-         1. Number - 4 - Year
-         2. Picklist - Make
-         3. Text - 69 - Model
-         4. Text - 69 - BOTH Layouts - Color
-       - Car Part Layout
-         1. LookUp - Account - Car Part Layout - Sponsor and Team Layout - Brand
-         2. Picklist - Part Type
-         3. Checkbox - Sponsored Part
-         4. Text Area Rich - 999 / 10 - Part Description - BOTH Layouts
-    2. Hooning
-       - Show
-         1. Text - 255 - ALL Layouts - Location
-         2. Currency - 7 / 2 - BOTH Show and Race Layout - Payout
-         3. Date/Time - BOTH Show and Race Layouts - Event Date
-       - Race
-         1. Number - 2 - Place
-       - Drag Strip
-         1. Number - 2 / 2 - BOTH Drag Strip and Road Course Layout - Track Length
-         2. Number - 4 - 3 Layouts Race, Drag Strip, and Road Course Layout - Laps
-       - Road Course
-         1. Picklist - Clockwise / Counter Clockwise - Direction
-    3. Sponsor
-       - Sponsor
-         1. Checkbox - Currently a Sponsor
-         2. Checkbox - Target Sponsor
-    4. Account
-       - Sponsor
-         1. Checkbox - Currently a Sponsor
-         2. Checkbox - Target Sponsor
-    5. Contact
-       - Sponsor
-         1. Checkbox - Point Man
-         2. ReArrange fields we want to keep
+- Remove unneeded fields from Lead, Account, Contact, and Sponsor Page Layouts
+- Add fields to collect Data Points needed for reporting
+  1. Vehicle
+     - Car Layout
+       1. Number - 4 - Year
+       2. Picklist - Make
+       3. Text - 69 - Model
+       4. Text - 69 - BOTH Layouts - Color
+     - Car Part Layout
+       1. LookUp - Account - Car Part Layout - Sponsor and Team Layout - Brand
+       2. Picklist - Part Type
+       3. Checkbox - Sponsored Part
+       4. Text Area Rich - 999 / 10 - Part Description - BOTH Layouts
+  2. Hooning
+     - Show
+       1. Text - 255 - ALL Layouts - Location
+       2. Currency - 7 / 2 - BOTH Show and Race Layout - Payout
+       3. Date/Time - BOTH Show and Race Layouts - Event Date
+     - Race
+       1. Number - 2 - Place
+     - Drag Strip
+       1. Number - 2 / 2 - BOTH Drag Strip and Road Course Layout - Track Length
+       2. Number - 4 - 3 Layouts Race, Drag Strip, and Road Course Layout - Laps
+     - Road Course
+       1. Picklist - Clockwise / Counter Clockwise - Direction
+  3. Sponsor
+     - Sponsor
+       1. Checkbox - Currently a Sponsor
+       2. Checkbox - Target Sponsor
+  4. Account
+     - Sponsor
+       1. Checkbox - Currently a Sponsor
+       2. Checkbox - Target Sponsor
+  5. Contact
+     - Sponsor
+       1. Checkbox - Point Man
+       2. ReArrange fields we want to keep
 
 ## Remove unneeded Page Layouts
 
