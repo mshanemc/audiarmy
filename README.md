@@ -1,4 +1,4 @@
-# #TheAudiArmy App is for tracking A Race Teams Cars, Drivers, and Sponsors
+# #TheAudiArmy App is for tracking A Race Team's Cars, Drivers, and Sponsors
 
 ## Determine your Data Model
 
