@@ -1,6 +1,6 @@
-#TheAudiArmy App is for tracking A Race Teams Cars, Drivers, and Sponsors
+# #TheAudiArmy App is for tracking A Race Teams Cars, Drivers, and Sponsors
 
-## Determine your Data Model:
+## Determine your Data Model
 
 - You can Go to Set Up - Schema Builder to view your current out of the box Data Model
 - It is important to put some thought into this, maybe even before you begin creating your app, in order to stick with Salesforce Best Practices
@@ -10,7 +10,7 @@
   - Create Custom Objects to house various data points where the above really doesn't make sense
   - Create Record Types for on Standard or Custom Objects as needed
 
-## Extend your Data Model (Custom Objects and Record Types):
+## Extend your Data Model (Custom Objects and Record Types)
 
 - As per the above options, I am choosing to do the following:
   - Create Record Types for Leads
@@ -55,7 +55,7 @@
   5. Hooning Drag Strip and Road Course Records need a LookUp field to look up to Hooning Race Records, placed on TheAudiArmy Drag Strip and Road Course Layout and the Related List goes on TheAudiArmy Race Layout
   6. ReUse Field above for the Hooning Road Course Records
 
-## Configure Objects in Data Model:
+## Configure Objects in Data Model
 
 - Remove unneeded fields from Lead, Account, Contact, and Sponsor Page Layouts
 - Add fields to collect Data Points needed for reporting
