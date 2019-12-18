@@ -1,11 +1,14 @@
 {
-  "orgName": "shane.mclaughlin Company",
+  "orgName": "Trailblazer Apps",
+  "adminEmail": "shane@mailinator.com",
+  "description": "AudiArmy",
   "edition": "Developer",
-  "features": [],
   "settings": {
-    "orgPreferenceSettings": {
-      "s1DesktopEnabled": true,
-      "consentManagementEnabled": true
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
+    },
+    "partyDataModelSettings": {
+      "enableConsentManagement": true
     }
   }
 }
